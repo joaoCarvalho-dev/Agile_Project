@@ -1,0 +1,6 @@
+image: python:latest
+
+build-job:
+  stage: build
+  script:
+    - python ./setup.py
